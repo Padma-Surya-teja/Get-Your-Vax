@@ -6,7 +6,7 @@ import geocoder
 from geopy.distance import geodesic
 import requests
 app = Flask(__name__)
-conn = pymongo.MongoClient("mongodb://localhost:27017/")
+conn = pymongo.MongoClient("mongodb://localhost:####/")
 mydb = conn["data"]
 mycol2 = mydb["districts"]
 key_token = ''#bing key token
